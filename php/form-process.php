@@ -4,7 +4,7 @@ $email = $_POST["email"];
 $message = $_POST["message"];
  
 $EmailTo = "biworks.io@gmail.com";
-$Subject = $_POST["msg_subject"];
+$Subject = "default";
  
 // prepare email body text
 $Body .= "Name: ";
